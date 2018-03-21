@@ -1,0 +1,229 @@
+/*
+
+    Table of comments
+    
+    GENERAL
+        HEADINGS
+        ICONS
+    SECTIONS
+        HEADER
+        HELLO, WORLD
+        MY PROJECTS
+
+*/
+
+/* ------------------------------------------------- */
+/* GENERAL */
+/* ------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: 4;
+            box-sizing: 4;
+}
+
+*:focus {
+    outline: none;
+}
+
+html, body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix { zoom: 1 }
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* --- HEADAINGS —-- */
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: 100;
+    line-height: 145%;
+    width: 60%;
+}
+
+h2 {
+    font-size: 300%;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 200%;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 150%;
+    font-weight: 500;
+}
+
+/* --- ICONS --- */
+
+.icon-big {
+    font-size: 300%;
+    margin-right: 25px;
+}
+
+.icon-social {
+    font-size: 200%;
+    margin-right: 20px;
+}
+
+.icon-small {
+    font-size: 150%;
+    margin-right: 2.5%;  
+}
+
+/* ------------------------------------------------- */
+/* SECTIONS */
+/* ------------------------------------------------- */
+
+section {
+    height: 100vh;
+}
+
+/* --- HEADER --- */
+
+.alpha {
+    color: #666;
+}
+
+.section-header h1, 
+.section-header h3 {
+    text-transform: uppercase;
+}
+
+.section-header {
+    background: url('img/header.jpg');
+    background-position: center right 5%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 7.5%;
+    transform: translate(0, -50%);
+}
+
+.header-copyright,
+.header-copyright a {
+    color: #444;
+    text-decoration: none;
+}
+
+.header-copyright {
+    position: absolute;
+    text-align: right;
+    top: 95%;
+    right: 2.5%;
+    transform: translate(0%, -100%);
+}
+
+/* --- HELLO, WORLD --- */
+
+.section-hello-world {
+    margin: 5vh;
+    padding: 5vh;
+    height: 80vh;
+    background-color: #ecf0f1;
+    position: relative; 
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.section-hello-world h2 {
+    padding: 20px 0;
+}
+
+.section-hello-world p {
+    margin-bottom: 10px;
+}
+
+.flex {
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+#profile_pic {
+    width: 35vh;
+    height: auto;
+    border-radius: 500px;
+    box-shadow: 0 2px 15px #888;
+    margin-top: 12.5vh;
+}
+
+.section-hello-world a:link,
+.section-hello-world a:visited {
+    color: #555;
+}
+
+.section-hello-world a:hover,
+.section-hello-world a:active {
+    color: #777;
+}
+
+.section-hello-world .icons a:last-of-type i {
+    margin: 0;
+}
+
+/* --- MY PROJECTS --- */
+
+.section-projects {
+    height: 0vh;
+    width: 100%;
+    padding: 40px 10px 0px 10px;
+}
+
+.section-projects li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.section-projects img {
+    width: 260px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px #888;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px 0;
+}
+
+.section-projects a {
+    text-decoration: none;
+    color: #777;
+}
