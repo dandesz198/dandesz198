@@ -101,10 +101,6 @@ h4 {
 /* SECTIONS */
 /* ------------------------------------------------- */
 
-section {
-    height: 100vh;
-}
-
 /* --- HEADER --- */
 
 .alpha {
@@ -152,8 +148,7 @@ section {
 
 .section-hello-world {
     margin: 5vh;
-    padding: 5vh;
-    height: 80vh;
+    padding: 10vh;
     background-color: #ecf0f1;
     position: relative; 
 }
@@ -165,7 +160,7 @@ section {
 }
 
 .section-hello-world h2 {
-    padding: 20px 0;
+    padding: 0 0 20px 0;
 }
 
 .section-hello-world p {
@@ -183,7 +178,7 @@ section {
     height: auto;
     border-radius: 500px;
     box-shadow: 0 2px 15px #888;
-    margin-top: 12.5vh;
+    margin-top: 5vh;
 }
 
 .section-hello-world a:link,
@@ -198,6 +193,26 @@ section {
 
 .section-hello-world .icons a:last-of-type i {
     margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: 
+    "a a a b b";
+    align-items: start;
+    justify-content: center;
+}
+
+.col-left {
+    grid-area: a;
+    justify-self: center;
+}
+
+.col-right {
+    grid-area: b;
+    justify-self: center;
 }
 
 /* --- MY PROJECTS --- */
