@@ -238,6 +238,24 @@ h4 {
     margin: 5px 0;
 }
 
+/*.section-projects .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: 
+    "a a b";
+    align-items: start;
+    justify-content: center;
+}
+
+.col-web {
+    grid-area: a;
+}
+
+.col-mobile {
+    grid-area: b;
+}*/
+
 .section-projects a {
     text-decoration: none;
     color: #777;
