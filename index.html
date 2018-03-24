@@ -30,8 +30,9 @@
                     Picture: <a href="https://pixabay.com/photo-2009971/">Pixabay</a>
                 </p>
             </section>
-            <section class="section-hello-world wrapper">
-                    <div class="col-left">
+            <section class="section-hello-world">
+                <div class="row center">
+                    <div class="col span-1-of-2">
                         <h2>Hello, world!</h2>
                         <p>
                             I'm Daniel Gergely, a passionate web and mobile developer from Budapest, Hungary. I can create scalable web applications with <b>React</b>, stunning and responsive sites with plain <b>HTML, CSS and jQuery</b>, fast mobile applications with <b>React-Native</b>, and minimal backend with <b>Node.JS</b>.
@@ -43,7 +44,7 @@
                             <i class="ion-social-nodejs icon-big"></i>
                         </div>
                     </div>
-                    <div class="col-right">
+                    <div class="col span-1-of-2 flex">
                         <img id="profile_pic" src="resources/img/dani.jpg">
                         <div class="row icons">
                             <a href="https://facebook.com/dandesz198"><i class="ion-social-facebook icon-social"></i></a>
@@ -53,39 +54,93 @@
                             <a href="mailto:dandesz198@gmail.com"><i class="ion-android-mail icon-social"></i></a>
                         </div>
                     </div>
+                </div>
             </section>
             <section class="section-projects">
                 <div class="row">
                     <h2>My projects</h2>
                 </div>
-                <div class="wrapper">
-                    <div class="col-web">
-                        <h3>Web</h3>
-                        <div class="col span-2-of-5">
-                            <img src="resources/img/dandonalds.png" alt="DanDonalds screenshot">
-                            <h4>DanDonalds</h4>
-                            <ul>
-                                <li>
-                                    <a href="https://github.com/dandesz198/dandonalds"><i class="ion-social-github icon-small"></i>GitHub</a>
-                                </li>
-                                <li>
-                                    <a href="https://dandesz198.github.io/dandonalds"><i class="ion-link icon-small"></i>Website</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col span-2-of-5">
-                            <img src="resources/img/shrug.png" alt="Coming soon">
-                            <h4>More coming soon...</h4>
-                        </div>
+                <div class="row">
+                    <div class="col span-2-of-7">
+                        <a href="https://dandesz198.github.io/dandonalds"> <img src="resources/img/dandonalds.png" alt="DanDonalds screenshot"> </a>
+                        <ul>
+                            <li>
+                                <div class="category web">
+                                    Web
+                                </div>
+                            </li>
+                            <li>
+                                <h4>DanDonalds</h4>
+                            </li>
+                            <li>
+                                <a href="https://github.com/dandesz198/dandonalds"><i class="ion-social-github icon-small"></i>GitHub</a>
+                            </li>
+                            <li>
+                                <a href="https://dandesz198.github.io/dandonalds"><i class="ion-link icon-small"></i>Website</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-mobile">
-                        <h3>Mobile</h3>
-                        <div class="col span-1-of-1">
-                            <img src="resources/img/shrug.png" alt="Coming soon">
-                            <h4>Coming soon...</h4>
-                        </div>
+                    <div class="col span-2-of-7">
+                        <img src="resources/img/shrug.png" alt="Coming soon">
+                        <ul>
+                            <li>
+                                <div class="category web">
+                                    Web
+                                </div>
+                                <div class="category mobile">
+                                    Mobile
+                                </div>
+                            </li>
+                            <li>
+                                <h4>Coming soon...</h4>
+                            </li>
+                        </ul>
                     </div>
                 </div> 
+            </section>
+            <section class="section-form">
+                <div class="row">
+                    <h2>Contact me</h2>
+                </div>
+                <div class="row">
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col span-1-of-4">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="text" name="name" id="name" placeholder="John Appleseed" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-4">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="email" name="email" id="email" placeholder="john.a@apple.com" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-4">
+                                <label>Drop me a line</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <textarea name="message" placeholder="That line you want to drop me. Don't worry, we'll read it even if it's more than one line."></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-4">
+                                <label>&nbsp;</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="submit" value="Send it">
+                                <p id="notoperate">
+                                    The form does not operate at this time, since it's not finished yet.
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </section>
         </div>
 
