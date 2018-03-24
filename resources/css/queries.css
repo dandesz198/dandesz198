@@ -71,7 +71,8 @@
     }
 
     #profile_pic {
-        margin-top: 5vh;
+        margin-top: 2.5vh;
+        margin-bottom: 1.25vh;
         width: 20vh;
         height: auto;
     }
