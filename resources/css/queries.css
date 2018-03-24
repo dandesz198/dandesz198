@@ -55,15 +55,8 @@
 /* Small phones - from 0 to 480px */
 
 @media only screen and ( max-width: 480px ) {
-    input[type=text],
-    input[type=email],
-    select,
-    textarea {
-        width: 100%;
-        padding: 7px;
-        border-radius: 5px;
-        border: 1px solid #ddd;
-        font-size: 80%;
+    .section-header {
+        background-size: 0%;
     }
 
     .section-hello-world {
@@ -73,7 +66,7 @@
         background-color: #ecf0f1;
     }
 
-    .techs {
+    .header-copyright {
         display: none;
     }
 
@@ -81,5 +74,20 @@
         margin-top: 5vh;
         width: 20vh;
         height: auto;
+    }
+
+    .techs {
+        display: none;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 80%;
     }
 }
