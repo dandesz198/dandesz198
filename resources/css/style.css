@@ -263,7 +263,7 @@ h4 {
 }
 
 .section-form p {
-    font-size: 80%;
+    font-size: 85%;
 }
 
 .contact-form {
@@ -271,34 +271,51 @@ h4 {
     margin: 10px auto;
 }
 
+input {
+    margin: 5px 0 0 0;
+}
+
 input[type=text],
 input[type=email],
 select,
 textarea {
-    width: 90%;
+    width: 100%;
     padding: 7px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 3px solid #bbb;
+    color: #bbb;
     font-size: 80%;
+}
+
+input:focus {
+    color: #555;
+    border-color: #555;
+}
+
+textarea:focus {
+    color: #555;
+    border-color: #555;
 }
 
 textarea {
     height: 10vh;
 }
 
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
-
 .section-form input[type=submit] {
-    font-size: 100%;
+    font-family: 'Ionicons';
+    font-size: 117.5%;
     font-weight: 300;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 45px;
     background-color: transparent;
-    color: #444;
-    border: 2px solid #444;
-    padding: 10px;
+    color: white;
+    background-color: #555;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    right: 15%;
+    bottom: 15px;
 }
 
 #notoperate {
