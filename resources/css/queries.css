@@ -1,0 +1,85 @@
+/*
+    Table of comments
+
+    1200 - Big tablets
+    1023 - Small tablets
+    767 - Small phones and tablets
+    480 - Small phones
+    
+*/
+
+/* --- 1200 --- */
+/* Big tablets, iPad landscape - from 1024 to 1200 */
+
+@media only screen and ( max-width: 1200px ) {
+    .section-projects {
+        margin-left: 20px;
+    }
+
+    .section-hello-world {
+        margin: 2.5vh;
+        padding: 5vh;
+        height: 70vh;
+    }
+}
+
+/* --- 1023 --- */
+/* Small tablets, iPad portrait - from 786 to 1023 */
+
+@media only screen and ( max-width: 1023px ) {
+    html, body {
+        font-size: 18px;
+    }
+
+    .section-hello-world {
+        padding: 2vh 4vh;
+        height: 65vh;
+    }
+}
+
+/* --- 767 --- */
+/* Small phones to small tablets - from 481 to 767 */
+
+@media only screen and ( max-width: 767px ) {
+    html, body {
+        font-size: 15px;
+    }
+
+    #profile_pic {
+        width: 25vh;
+        height: auto;
+    }
+}
+
+/* --- 480 --- */
+/* Small phones - from 0 to 480px */
+
+@media only screen and ( max-width: 480px ) {
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 7px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 80%;
+    }
+
+    .section-hello-world {
+        margin: 0;
+        padding: 5vh;
+        height: 80vh;
+        background-color: #ecf0f1;
+    }
+
+    .techs {
+        display: none;
+    }
+
+    #profile_pic {
+        margin-top: 5vh;
+        width: 20vh;
+        height: auto;
+    }
+}
