@@ -1,25 +1,11 @@
 /*
     Table of comments
 
-    Big tablets
     Small tablets
     Small phones and tablets
     Small phones
     
 */
-
-/* Big tablets, iPad landscape */
-
-@media only screen and ( max-width: 100em ) {
-    .section-projects {
-        margin-left: 20px;
-    }
-
-    .section-hello-world {
-        margin: 2.5vh;
-        padding: 5vh;
-    }
-}
 
 /* Small tablets, iPad portrait */
 
@@ -45,15 +31,14 @@
         font-size: 15px;
     }
 
+    .section-hello-world {
+        margin: 2.5vh;
+        padding: 5vh;
+    }
+
     #profile_pic {
         width: 20vh;
         height: auto;
-    }
-
-    .centering {
-        margin-top: 15px;
-        margin-left: 7.5%;
-        margin-right: 7.5%;
     }
 
     input {
@@ -64,11 +49,6 @@
 /* Small phones */
 
 @media only screen and ( max-width: 30em ) {
-    .centering {
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-    }
-
     .section-header {
         background-size: 0%;
     }
@@ -76,7 +56,6 @@
     .section-hello-world {
         margin: 0;
         padding: 7.5vh;
-        background-color: #ecf0f1;
     }
 
     .header-copyright {
@@ -108,6 +87,15 @@
         left: 0;
         height: 52.5px;
         width: 52.5px;
-        font-size: 140%;
+        font-size: 150%;
+    }
+
+    .span-1-of-3 {
+        width: 70% !important;
+    }
+
+    .centering {
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }
