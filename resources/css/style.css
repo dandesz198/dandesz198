@@ -129,6 +129,14 @@ h4 {
     transform: translate(0, -50%);
 }
 
+.header-copyright {
+    position: absolute;
+    text-align: right;
+    top: 95%;
+    right: 2.5%;
+    transform: translate(0%, -100%);
+}
+
 .header-copyright,
 .header-copyright a {
     color: #444;
@@ -136,12 +144,8 @@ h4 {
     transition: 0.2s color;
 }
 
-.header-copyright {
-    position: absolute;
-    text-align: right;
-    top: 95%;
-    right: 2.5%;
-    transform: translate(0%, -100%);
+.header-copyright a {
+    font-weight: bold;
 }
 
 .header-copyright a:hover {
