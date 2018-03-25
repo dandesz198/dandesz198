@@ -275,6 +275,23 @@ h4 {
 
 /* --- CONTACT FORM --- */
 
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+    -webkit-appearance: none !important;
+}
+
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+.input-checkbox {
+    border-radius: 0 !important;
+}
+
 .section-form {
     padding: 50px;
     background-color: #ecf0f1;
