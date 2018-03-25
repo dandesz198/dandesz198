@@ -44,6 +44,10 @@
     input {
         margin: 5px 0;
     }
+
+    .span-1-of-3 {
+        width: 45% !important;
+    }
 }
 
 /* Small phones */
@@ -55,7 +59,7 @@
 
     .section-hello-world {
         margin: 0;
-        padding: 7.5vh;
+        padding: 5vh;
     }
 
     .header-copyright {
