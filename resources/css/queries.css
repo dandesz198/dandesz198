@@ -52,7 +52,12 @@
 
     .section-form input[type=submit] {
         position: relative;
-        margin-left: 5%;
+        top: 0;
+        left: 0;
+    }
+
+    input {
+        margin: 5px 0;
     }
 }
 
@@ -95,6 +100,5 @@
     select,
     textarea {
         width: 100%;
-        font-size: 80%;
     }
 }
