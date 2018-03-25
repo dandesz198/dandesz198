@@ -66,6 +66,7 @@ h1 {
 
 h2 {
     font-size: 300%;
+    line-height: 50%;
     font-weight: 500;
     margin: 20px 0;
 }
@@ -272,7 +273,7 @@ h4 {
 }
 
 input {
-    margin: 5px 0 0 0;
+    margin: 2.5px 0;
 }
 
 input[type=text],
@@ -280,7 +281,7 @@ input[type=email],
 select,
 textarea {
     width: 100%;
-    padding: 7px;
+    padding: 7px 0 7px 7px;
     border: 0;
     background-color: transparent;
     border-bottom: 3px solid #bbb;
@@ -304,11 +305,10 @@ textarea {
 
 .section-form input[type=submit] {
     font-family: 'Ionicons';
-    font-size: 117.5%;
+    font-size: 120%;
     font-weight: 300;
     text-align: center;
     border-radius: 45px;
-    background-color: transparent;
     color: white;
     background-color: #555;
     width: 55px;
