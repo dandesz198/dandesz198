@@ -19,7 +19,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 4;
+    -webkit-box-sizing: 4;
+            box-sizing: 4;
 }
 
 *:focus {
@@ -128,7 +129,8 @@ h4 {
     position: absolute;
     top: 50%;
     left: 7.5%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
 }
 
 .header-copyright {
@@ -136,13 +138,15 @@ h4 {
     text-align: right;
     top: 95%;
     right: 2.5%;
-    transform: translate(0%, -100%);
+    -webkit-transform: translate(0%, -100%);
+            transform: translate(0%, -100%);
 }
 
 .header-copyright,
 .header-copyright a {
     color: #444;
     text-decoration: none;
+    -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
@@ -152,6 +156,7 @@ h4 {
 
 .header-copyright a:hover {
     color: #888;
+    -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
@@ -167,7 +172,8 @@ h4 {
 .center {
     position: relative;
     top: 50%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
 }
 
 .section-hello-world h2 {
@@ -188,19 +194,22 @@ h4 {
     width: 35vh;
     height: auto;
     border-radius: 500px;
-    box-shadow: 0 2px 15px #888;
+    -webkit-box-shadow: 0 2px 15px #888;
+            box-shadow: 0 2px 15px #888;
     margin-top: 12.5vh;
 }
 
 .section-hello-world a:link,
 .section-hello-world a:visited {
     color: #555;
+    -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
 .section-hello-world a:hover,
 .section-hello-world a:active {
     color: #777;
+    -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
@@ -224,7 +233,8 @@ h4 {
     width: 260px;
     height: 150px;
     border-radius: 20px;
-    box-shadow: 0 2px 15px #888;
+    -webkit-box-shadow: 0 2px 15px #888;
+            box-shadow: 0 2px 15px #888;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 5px 0;
@@ -233,11 +243,13 @@ h4 {
 .section-projects a {
     text-decoration: none;
     color: #777;
+    -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
 .section-projects a:hover {
     color: #aaa;
+    -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
@@ -249,7 +261,8 @@ h4 {
     color: white;
     font-size: 80%;
     border-radius: 2.5px;
-    box-shadow: 0 1px 15px #aaa;
+    -webkit-box-shadow: 0 1px 15px #aaa;
+            box-shadow: 0 1px 15px #aaa;
 }
 
 .web {
@@ -279,6 +292,7 @@ input {
 input[type=text],
 input[type=email],
 textarea {
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     padding: 7px 0 7px 7px;
     border: 0;
@@ -287,6 +301,7 @@ textarea {
     font-size: 95%;
     color: #555;
     opacity: 0.5;
+    -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
 }
 
@@ -294,6 +309,7 @@ input[type=text]:valid,
 input[type=email]:valid,
 textarea:valid {
     opacity: 1;
+    -webkit-transition: 0.4s opacity;
     transition: 0.4s opacity;
 }
 
