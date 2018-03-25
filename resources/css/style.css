@@ -169,34 +169,8 @@ h4 {
     background-color: #ecf0f1;
 }
 
-.center {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-            transform: translate(0, -50%);
-}
-
-.section-hello-world h2 {
-    padding: 20px 0;
-}
-
 .section-hello-world p {
-    margin-bottom: 10px;
-}
-
-.flex {
-    padding: auto;
-    text-align: center;
-    vertical-align: center;
-}
-
-#profile_pic {
-    width: 30vh;
-    height: auto;
-    border-radius: 500px;
-    -webkit-box-shadow: 0 2px 15px #888;
-            box-shadow: 0 2px 15px #888;
-    margin-top: 12.5vh;
+    margin: 15px 0;
 }
 
 .section-hello-world a:link,
@@ -217,11 +191,35 @@ h4 {
     margin: 0;
 }
 
+.center {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+}
+
+.flex {
+    padding: auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+#profile_pic {
+    width: 30vh;
+    height: auto;
+    border-radius: 500px;
+    -webkit-box-shadow: 0 2px 15px #888;
+            box-shadow: 0 2px 15px #888;
+    margin-top: 12.5vh;
+}
+
+
+
 /* --- MY PROJECTS --- */
 
 .section-projects {
     width: 100%;
-    padding: 40px 10px;
+    padding: 40px 0;
 }
 
 .section-projects li {
@@ -275,6 +273,50 @@ h4 {
 
 /* --- CONTACT FORM --- */
 
+.section-form {
+    padding: 50px;
+    background-color: #ecf0f1;
+}
+
+.contact-form {
+    width: 99.5%;
+    margin: 10px auto;
+}
+
+textarea {
+    height: 10vh;
+}
+
+textarea:focus {
+    color: #555;
+    border-color: #555;
+}
+
+input {
+    margin-top: 7.5px;
+}
+
+input:focus {
+    color: #555;
+    border-color: #555;
+}
+
+input[type=submit] {
+    font-family: 'Ionicons';
+    font-size: 130%;
+    text-align: center;
+    border-radius: 45px;
+    color: white;
+    background-color: #555;
+    width: 57.5px;
+    height: 57.5px;
+    position: absolute;
+    right: 15%;
+    bottom: 15px;
+    border: 0 !important;
+    border-color: transparent !important;
+}
+
 textarea,
 input.text,
 input[type="text"],
@@ -288,20 +330,6 @@ input.text,
 input[type="text"],
 input[type="email"] {
     border-radius: 0 !important;
-}
-
-.section-form {
-    padding: 50px;
-    background-color: #ecf0f1;
-}
-
-.contact-form {
-    width: 99.5%;
-    margin: 10px auto;
-}
-
-input {
-    margin-top: 7.5px;
 }
 
 input[type=text],
@@ -326,34 +354,4 @@ textarea:valid {
     opacity: 1;
     -webkit-transition: 0.4s opacity;
     transition: 0.4s opacity;
-}
-
-input:focus {
-    color: #555;
-    border-color: #555;
-}
-
-textarea:focus {
-    color: #555;
-    border-color: #555;
-}
-
-textarea {
-    height: 10vh;
-}
-
-.section-form input[type=submit] {
-    font-family: 'Ionicons';
-    font-size: 130%;
-    text-align: center;
-    border-radius: 45px;
-    color: white;
-    background-color: #555;
-    width: 57.5px;
-    height: 57.5px;
-    position: absolute;
-    right: 15%;
-    bottom: 15px;
-    border: 0 !important;
-    border-color: transparent !important;
 }
