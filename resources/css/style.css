@@ -92,8 +92,10 @@ h4 {
 }
 
 .icon-small {
-    font-size: 150%;
-    margin-right: 2.5%;  
+    font-size: 140%;
+    width: 80px;
+    height: 60px;
+    margin-right: 5%;
 }
 
 /* ------------------------------------------------- */
@@ -214,6 +216,7 @@ h4 {
 }
 
 .section-projects li {
+    width: 50%;
     list-style-type: none;
     text-align: left;
 }
@@ -271,7 +274,7 @@ h4 {
 }
 
 input {
-    margin: 2.5px 0;
+    margin-top: 7.5px;
 }
 
 input[type=text],
