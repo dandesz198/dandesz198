@@ -101,4 +101,10 @@
     textarea {
         width: 100%;
     }
+
+    .section-form input[type=submit] {
+        height: 52.5px;
+        width: 52.5px;
+        font-size: 140%;
+    }
 }
