@@ -1,15 +1,14 @@
 /*
     Table of comments
 
-    1200 - Big tablets
-    1023 - Small tablets
-    767 - Small phones and tablets
-    480 - Small phones
+    Big tablets
+    Small tablets
+    Small phones and tablets
+    Small phones
     
 */
 
-/* --- 1200 --- */
-/* Big tablets, iPad landscape - from 1024 to 1200 */
+/* Big tablets, iPad landscape */
 
 @media only screen and ( max-width: 100em ) {
     .section-projects {
@@ -22,8 +21,7 @@
     }
 }
 
-/* --- 1023 --- */
-/* Small tablets, iPad portrait - from 786 to 1023 */
+/* Small tablets, iPad portrait */
 
 @media only screen and ( max-width: 80em ) {
     html, body {
@@ -40,8 +38,7 @@
     }
 }
 
-/* --- 767 --- */
-/* Small phones to small tablets - from 481 to 767 */
+/* Small phones to small tablets */
 
 @media only screen and ( max-width: 50em ) {
     html, body {
@@ -64,8 +61,7 @@
     }
 }
 
-/* --- 480 --- */
-/* Small phones - from 0 to 480px */
+/* Small phones */
 
 @media only screen and ( max-width: 30em ) {
     .centering {
