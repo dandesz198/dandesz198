@@ -19,7 +19,6 @@
     .section-hello-world {
         margin: 2.5vh;
         padding: 5vh;
-        height: 70vh;
     }
 }
 
@@ -31,9 +30,13 @@
         font-size: 18px;
     }
 
+    #profile_pic {
+        width: 22.5vh;
+        height: auto;
+    }
+
     .section-hello-world {
         padding: 2vh 4vh;
-        height: 65vh;
     }
 }
 
@@ -46,14 +49,14 @@
     }
 
     #profile_pic {
-        width: 25vh;
+        width: 20vh;
         height: auto;
     }
 
-    .section-form input[type=submit] {
-        position: relative;
-        top: 0;
-        left: 0;
+    .centering {
+        margin-top: 15px;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
 
     input {
@@ -66,8 +69,8 @@
 
 @media only screen and ( max-width: 30em ) {
     .centering {
-        margin-top: 15px;
-        margin-left: 7.5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 
     .section-header {
@@ -104,6 +107,9 @@
     }
 
     .section-form input[type=submit] {
+        position: relative;
+        top: 0;
+        left: 0;
         height: 52.5px;
         width: 52.5px;
         font-size: 140%;

@@ -185,13 +185,13 @@ h4 {
 }
 
 .flex {
-    margin: auto;
+    padding: auto;
     text-align: center;
     vertical-align: center;
 }
 
 #profile_pic {
-    width: 35vh;
+    width: 30vh;
     height: auto;
     border-radius: 500px;
     -webkit-box-shadow: 0 2px 15px #888;
