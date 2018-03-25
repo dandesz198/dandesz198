@@ -54,6 +54,7 @@ html, body {
 /* --- HEADAINGS —-- */
 
 h1, h2, h3 {
+    display: block;
     letter-spacing: 1px;
 }
 
@@ -165,7 +166,6 @@ h4 {
 .section-hello-world {
     margin: 5vh;
     padding: 5vh;
-    height: 80vh;
     background-color: #ecf0f1;
 }
 
