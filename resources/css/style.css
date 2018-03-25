@@ -280,15 +280,23 @@ input {
 
 input[type=text],
 input[type=email],
-select,
 textarea {
     width: 100%;
     padding: 7px 0 7px 7px;
     border: 0;
     background-color: transparent;
-    border-bottom: 3px solid #bbb;
-    color: #bbb;
+    border-bottom: 3px solid #555;
+    color: #555;
     font-size: 90%;
+    opacity: 0.5;
+    transition: 0.2s opacity;
+}
+
+input[type=text]:valid,
+input[type=email]:valid,
+textarea:valid {
+    opacity: 1;
+    transition: 0.4s opacity;
 }
 
 input:focus {
