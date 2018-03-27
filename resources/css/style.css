@@ -171,7 +171,7 @@ h4 {
 
 .section-hello-world p {
     margin: 15px 0;
-}
+} 
 
 .section-hello-world a:link,
 .section-hello-world a:visited {
@@ -192,25 +192,19 @@ h4 {
 }
 
 .center {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-            transform: translate(0, -50%);
-}
-
-.flex {
-    padding: auto;
-    text-align: center;
-    vertical-align: center;
+    margin-top: 15vh !important;
+    display: flex !important;
+    flex: 1;
+    flex-direction: column;
 }
 
 #profile_pic {
+    margin: auto;
     width: 30vh;
-    height: auto;
+    height: 30vh;
     border-radius: 500px;
     -webkit-box-shadow: 0 2px 15px #888;
             box-shadow: 0 2px 15px #888;
-    margin-top: 12.5vh;
 }
 
 /* --- MY PROJECTS --- */
